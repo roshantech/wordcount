@@ -1,0 +1,7 @@
+<h1>there are {{count}} words</h1>
+{{fulltext}}
+<h2>wordcount<h2/>
+{% for word, counttotal in sortedwords %}
+
+{{word}} -{{counttotal}}<br/>
+{% endfor %}
